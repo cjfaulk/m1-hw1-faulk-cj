@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: #545554;
+  display: flex;
+  flex-direction: column;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  padding: 2%;
+  background-color: #aae4e6;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 2%;
+}
+
+main {
+  padding: 2%;
+  flex: 1 0 auto;
+}
+
+footer {
+  background-color: #f8a910;
+  flex-shrink: 0;
+  padding: 10%;
+}
+
+@media (min-width: 550px) {
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  footer {
+    padding: 5%;
+  }
+
+}
